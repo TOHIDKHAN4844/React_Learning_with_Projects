@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html.light {
+  background-color: #fff;
+  color: #000;
+}
+
+html.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Example for Card component */
+ .light .card {
+    background-color: #eee;
+    color: #333
+}
+.dark .card {
+    background-color: #222;
+    color: #eee
+} 
